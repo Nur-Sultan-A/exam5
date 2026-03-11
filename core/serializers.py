@@ -1,6 +1,5 @@
 from rest_framework import serializers
-from .models import Todo
-from .models import Category, Type
+from .models import Category, Type, Todo
 
 
 class TodoSerializer(serializers.ModelSerializer):
